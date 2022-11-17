@@ -12,7 +12,7 @@ def fv(a,b,c):
 
 def fv2(*egyutthatok):
     for i in egyutthatok:
-        
+        print(i)
 
 import numpy as np
 
