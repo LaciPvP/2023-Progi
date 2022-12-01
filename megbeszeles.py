@@ -31,12 +31,22 @@ betu="qwe"
 while betu !="":
     betu=input("Kérek egy betűt:")
     szoveg=szoveg.replace(betu,betu.upper())
+
     print(szoveg)
 
 lista=szoveg.split(" ")
 lista.reverse()
-szoveg2"".join(lista)
+szoveg2=" ".join(lista)
 print(szoveg2)
+
+
+
+jelek=", . ! ? ' - _ : ;"
+
+for i in range(len(jelek)):
+        szoveg.replace(jelek[i]," ")
+
+print(szoveg) 
 
 
 
