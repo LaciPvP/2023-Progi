@@ -1,0 +1,2 @@
+bekeres=str(input("Adj meg egy nevet:"))
+
