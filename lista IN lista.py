@@ -29,5 +29,5 @@ for e in szavak:
 print(nagyLista)
 
 for e in nagyLista:
-    print(e[0].ljust(20),str(e[1]).rjust(4),"kg")
+    print(e[0].ljust(20),str(e[1]).rjust(4),"kg","-"*(e[1]//10))
     
