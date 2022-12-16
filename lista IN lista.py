@@ -29,5 +29,14 @@ for e in szavak:
 print(nagyLista)
 
 for e in nagyLista:
-    print(e[0].ljust(20),str(e[1]).rjust(4),"kg","-"*(e[1]//10))
+    print(e[0].ljust(20),str(e[1]).rjust(4),"kg","*"*(e[1]//10))
+
+
+
+
+
+#3 jegyu szam bekeres
+szamok=int(input("Kérek egy hárm jegyű számot:"))
+
+print(szamok)
     
