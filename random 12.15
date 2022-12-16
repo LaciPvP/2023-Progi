@@ -1,0 +1,2 @@
+minimumErtek=int(input("Add meg, hogy hol kezdődjön:"))
+maximumErtek=int(input("Add meg, a maxi"
