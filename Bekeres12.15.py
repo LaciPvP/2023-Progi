@@ -11,5 +11,10 @@ for i in range(darab):
 
 print(lista)
 
+legnagyobb=max(lista)
+egyseg=80//legnagyobb
+
 for e in lista:
-    print(e,"-"*(e[1]//10))
+    print(int("*"*(e*egyseg)))
+
+
