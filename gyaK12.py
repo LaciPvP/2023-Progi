@@ -14,4 +14,9 @@ elif szamok%12!=0:
 
 print(szamok)
 
+szoveg="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever"
+print(len(szoveg.split(" ")))
+
+szamok2=szamok2.replace(,szamok2.uppercase)
+print(szamok2)
 
