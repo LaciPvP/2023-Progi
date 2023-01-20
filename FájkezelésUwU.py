@@ -34,17 +34,25 @@ kerdesek=[]
 def beolvas():
     f=open("szotar.txt","r")
     for sor in f:
-        kerdesek.append(sor.replace("\n"," ").split(" "))
+        kerdesek.append(sor.replace("\n" , " ").split(" "))
     f.close()
 
     
 def kerdez():
-    print(kerdesek)
+    valasztott=random.choice(kerdesek)
+    print(valasztott)
+    rossz=[]
+    for i in range(3):
+        temp=random.choice(kerdesek)
+        while temp not in rossz and temp!=valasztott:
+            rossz.append(temp)
 
+    print("-"*40)
+    print("Mit jelent ez a szó: "+valasztott[0]+"?")
 
-
-
-
+    rossz.append(valasztott)
+    print(rossz)
+    
 beolvas()
 kerdez()
 #szavak=sokBeker()
