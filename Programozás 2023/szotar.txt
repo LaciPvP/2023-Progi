@@ -1,5 +1,5 @@
-Door Ajtó
+Door Ajto
 Tree Fa
-Calculator Számológép
+Calculator Szamologep
 Yes Igen
 No Nem
