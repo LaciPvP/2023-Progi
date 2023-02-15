@@ -82,11 +82,28 @@ f=open("pontok.txt","w")
 eredmenyek=[ ]
 for e in valaszok:
     pont=pontSzamit(e[1],helyes)
+    
     f.write(e[0]+" "+str(pont)+"\n")
     eredmenyek.append([pont,e[0]])
+    
 f.close()
 
-eredmenyek.sort()
-eredmenyek.reverse()
-print(eredmenyek[:10])
+#eredmenyek.sort()
+#eredmenyek.reverse()
+#print(eredmenyek[:10])
+
+csakPontok=set()
+for e in eredmenyek:
+    csakPontok.add(e[0])
+
+top3=list(csakPontok)[-3:]
+top3.sort()
+top3.revers()
+for e in enumerate(top3)
+    print(i)
+    for e in eredmenyek:
+        if e[3]==i:
+            print("",e[1]).format
+#print (list(csakPontok)[-3:])
+
 

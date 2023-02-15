@@ -1,0 +1,23 @@
+128 64 32 16 8 4 2 1 
+
+(1. Feladat)
+
+192.168.15.150/24
+a, 192.168.15.0
+b, 192.168.15.255
+c, 11000000.10101000.00001111.10010110
+d, 255.255.255.0
+
+(2. Feladat)
+
+85.64.100.200/8
+a, 85.0.0.0
+b, 85.255.255.255
+c, 01010101.01000000.010001000.10001000
+d, 255.0.0.0
+
+(3.Feladat)
+Igen,mivel ugyan abba az osztáyba tartoznak(192.168.1.0), és ilyenkor az utolsó oktet mindegyn mennyi csak <255 legyen.
+
+(4. Feladat)
+Hogy ne mindegyik eszköz kapja meg az adatokat, hanem csak azok amelyek ugyan azzal az ip osztállyal rendelkeznek.
