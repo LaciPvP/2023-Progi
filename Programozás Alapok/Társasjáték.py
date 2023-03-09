@@ -1,31 +1,40 @@
 from random import randint
-jelek=["Kavics","Papír","Olló"]
-t = ["Kavics", "Papír", "Olló"]
-
+jelek=["Kő","Papír","Olló","Kalapács","Deszka","Fűrész"]
+t = ["Kő", "Papír", "Olló","Kalapács","Deszka","Fűrész"]
 gep = t[randint(0,2)]
-
+#----------------------------------
 jatekos = False
-
+print("Kő-Papír-Olló-Kalapács-Deszka-Fűrész")
+#---------------------------------
+jatekos=0
 while jatekos == False:
-    jatekos = input("Válassz egyet: Kő/Papír/Olló<---->")
+#Itt vannak azok a lehetőségek ahol a játékos veszít.
+    jatekos = input("Válassz egy tárgyat: ")
     if jatekos == gep:
-        print("Döntetlen!")
-    elif jatekos == "Kavics":
-        if gep == "Papír":
-            print("Vesztettél!", gep, "becsomagolta őt: ", jatekos)
-        else:
-            print("Nyertél!", jatekos, "lezúzta őt: ", gep)
-    elif jatekos == "Papír":
-        if gep == "Olló":
-            print("Vesztettél...", gep, "szétkaszabolta őt: ", jatekos)
-        else:
-            print("Nyertél!", jatekos, "kicsorbította őt: : ", gep)
-    elif jatekos == "Olló":
-        if gep == "Kő":
-            print("Vesztettél...", gep, "kicsorbította őt: : ", jatekos)
-        else:
-            print("Nyertél!", jatekos, "szétkaszabolta őt: ", gep)
-    else:
-        print("Ez nem egy játékban használt kézjel,válassz az alábbiak közül: {0}".format(jelek))
+       print("Ugyan azt választottátok,így ez a kör döntetlen!")
+    if jatekos =="Kő" and gep=="Papír":
+        print("A papír becsomagolja a követ...vesztettél!")
+    elif jatekos =="Olló" and gep=="Kő":
+        print("A kő kicsorbítja az ollót...vesztettél!")
+    elif jatekos =="Papír" and gep=="Olló":
+        print("Az olló elvágja a papírt...vesztettél!")
+    elif jatekos =="Olló" and gep=="Kalapács":
+        print("A kalapács széttöri az ollót...vesztettél!")
+    elif jatekos =="Kalapács" and gep=="Papír":
+        print("A kalapácsot becsomagolja a papír...vesztettél!")
+#Itt vannak azok a lehetőségek ahol a játékos nyer.
+    elif jatekos =="Papír" and gep=="Kő":
+        print("Nyertél...becsomagoltad őt: {0}!".format(gep))
+    elif jatekos =="Kő" and gep=="Olló":
+        print("Nyertél...kicsorbítottad őt: {0}!".format(gep))
+    elif jatekos =="Olló" and gep=="Papír":
+        print("Nyertél...elvágtad őt: {0}!".format(gep))
+    elif jatekos =="Kalapács" and gep=="Olló":
+        print("Nyertél...széttörted őt: {0}!".format(gep))
+    elif jatekos =="Papír" and gep=="Kalapács":
+        print("Nyertél...becsomagoltad őt: {0}!".format(gep))
+        
+        
+        
     jatekos = False
     gep = t[randint(0,2)]
