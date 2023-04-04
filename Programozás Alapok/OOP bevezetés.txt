@@ -1,0 +1,23 @@
+Objektum Orientált Programozás:
+-A valóvilág leképezése
+-Az objektumoknak vannak tulajdonságai, és csinálhatnak valamit.(mérete,hossza,haszna,funkciója,helye)(FÜGGVÉNYEI)
+-Az objektum tervrajza a class
+-Az objektum a class 1 pédánya
+
+Példányosítás:
+-A classból konkrét példány készítése.
+-A feladatokat bízzuk az objektumra.
+-Saját adataival ő dolgozzon.(egységbe zárás/encapsulating)
+
+
+class MyClass:
+    x=5
+    def megnovel(self,mennyivel=1):
+        self.x+=mennyivel
+
+A konstruktor:
+- def:.A példányosításkor automatikusan lefutó függvény.
+- _init_()-->Kezdő adatokat itt adjuk meg
+- a "del" paranccsal lehet törölni
+- a "pass" paranccsal ures hellyel lehet kitölteni dolgokat
+
