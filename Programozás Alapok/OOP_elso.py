@@ -19,15 +19,17 @@ class muvelet:
 
 
 #Teszteléshez egy programkód
-if __name__ == "__main__":
-    q=muvelet(1,2)
-    print("Műveletek")
-    print(q.osszeadas())
-    print(q.kivonas())
-    print(q.szorzas())
-    print(q.osztas())
+if True:
+#if __name__ == "__main__":
+    q=muvelet(10,-10)
+    print(q.osszeadas())#0
+    print(q.kivonas())#20
+    print(q.szorzas())#-100
+    print(q.osztas())#-1.0
     
-        
+
+
+
 
         
     
