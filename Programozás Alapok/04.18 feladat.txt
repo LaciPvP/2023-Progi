@@ -1,0 +1,1 @@
+class objektum ami alapbol kap 1 szamot a fuggvenx 4alap muvelet a ket erteket adja vissza minden fuggvenyy
