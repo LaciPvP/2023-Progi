@@ -2,7 +2,7 @@
 from tkinter import *
 import math
 
-
+#---------------------------
 def eltol(pontok, x, y):
     vissza = []
     for e, pont in enumerate(pontok):
@@ -12,12 +12,14 @@ def eltol(pontok, x, y):
             vissza.append(pont + y)
     return vissza
 
+#-----------------------------
 def nagyit(pontok, meret = 1):
     vissza = []
     for e in pontok:
             vissza.append(e * meret)
     return vissza
 
+#-----------------------------
 def forgat(pontok, szog):
     vissza = []
     for i, pont in enumerate(pontok):
@@ -34,7 +36,7 @@ def forgat(pontok, szog):
 win=Tk()
 
 # Set the size of the tkinter window
-win.geometry("900x300")
+win.geometry("900x900")
 
 # Create a canvas widget
 canvas=Canvas(win, width=900, height=300)
@@ -85,8 +87,8 @@ kozep[1]/=db
 for betu in MATYI:
     betu=eltol(betu,-kozep[0],-kozep[1])
     betu=forgat(betu,90)
-    canvas.create_line(betu, fill="black", width=5)
     betu=eltol(betu,kozep[0],kozep[1])
+    canvas.create_line(betu, fill="black", width=5)
     
 
 win.mainloop()
