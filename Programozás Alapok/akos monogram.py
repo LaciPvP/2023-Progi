@@ -11,6 +11,15 @@ class forgato:
     def __init__(self,canvas,vonalak):
         self.canvas=canvas
         self.vonalak=vonalak
+
+    for i,betu in enumerate(self.vonalak):
+        betu+=betu(:2)
+        betu=nagyit(betu,10)
+        self.vonalak[i]=self.eltol(betu,200,200)
+
+
+
+        
     def rajzol(self):
         canvas.delete("all")
         self.szog+=self.szogSebesseg
