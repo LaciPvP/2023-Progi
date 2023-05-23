@@ -94,7 +94,22 @@ statFiu={}
 for egy in fiu:
     statFiu[egy]=0
 
+for egyTanc in tancok:
+    statFiu[egyTanc.fiu]+=1
+
+
+statLany={}
+for ketto in lany:
+    statLany[ketto]=0
+
+for egyTanc in tancok:
+    statLany[egyTanc.lany]+=1
+
+
+
 print(statFiu)
+print(statLany)
+
     
 
 
