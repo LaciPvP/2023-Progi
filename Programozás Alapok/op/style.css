@@ -1,0 +1,46 @@
+
+body{
+	box-sizing: border-box;
+	background-image: url("hatter.jpg");
+	background-attachment: fixed;
+}
+.doboz {
+    background-color: rgb(249, 230, 147);
+    border: 2px solid rgb(86, 86, 86);
+    border-radius: 10px;
+    background-color: rgb(149,230,147);
+}
+
+.doboz table{
+    border: 2px solid rgb(86, 86, 86);
+}
+
+.lablec a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.lablec a:hover {
+    text-decoration: none;
+    color: darkred;
+}
+
+.container{
+	background-color: white;
+}
+.fejlec
+{
+}
+
+p{
+text-align: justify;
+
+}
+
+#zaszlok{
+border: 1px solid black;
+    
+}
+

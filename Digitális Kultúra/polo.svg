@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="polo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="-53.585436"
+     inkscape:cy="670.64659"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="274.00388"
+       y="592.20193"
+       width="219.86601"
+       height="59.662135"
+       id="rect3258" />
+    <rect
+       x="86.178639"
+       y="765.66406"
+       width="312.67378"
+       height="72.920387"
+       id="rect5667" />
+    <rect
+       x="160.9375"
+       y="790.625"
+       width="177.34375"
+       height="75.78125"
+       id="rect5559" />
+    <rect
+       x="113.8"
+       y="728.09902"
+       width="234.22912"
+       height="109.38058"
+       id="rect4717" />
+  </defs>
+  <g
+     inkscape:label="Réteg 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect61"
+       style="fill:#008000;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="m 62.84991,66.904274 v 0.762228 l -0.519348,-0.559139 -26.65522,24.759212 17.162776,18.476905 10.011792,-9.29969 v 65.86058 h 75.00007 v -65.84352 l 10.00094,9.28935 17.16278,-18.476907 -26.65522,-24.759212 -0.5085,0.547253 v -0.75706 H 120.76989 A 20,20 0 0 1 101.08427,83.443317 20,20 0 0 1 81.398649,66.904274 Z" />
+    <g
+       id="path4661">
+      <path
+         style="color:#000000;fill:#008000;-inkscape-stroke:none"
+         d="m 120.34452,116.90255 a 20,20 0 0 1 -20,20 20,20 0 0 1 -19.999999,-20 20,20 0 0 1 19.999999,-20 20,20 0 0 1 20,20 z"
+         id="path2476" />
+      <path
+         style="color:#000000;fill:#000000;-inkscape-stroke:none"
+         d="m 100.34375,96.402344 c -11.315904,0 -20.5,9.184096 -20.5,20.499996 0,11.31591 9.184096,20.5 20.5,20.5 11.3159,0 20.5,-9.18409 20.5,-20.5 0,-11.3159 -9.1841,-20.499996 -20.5,-20.499996 z m 0,1 c 10.77546,0 19.5,8.724536 19.5,19.499996 0,10.77547 -8.72454,19.5 -19.5,19.5 -10.775464,0 -19.5,-8.72453 -19.5,-19.5 0,-10.77546 8.724536,-19.499996 19.5,-19.499996 z"
+         id="path2473" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text4715"
+       style="white-space:pre;shape-inside:url(#rect4717);fill:#ff0000;stroke:#000000;stroke-width:3.77953;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;inline-size:12.16;fill:#ff0000;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="36.394592"
+       y="203.31276"
+       id="text5501" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,40.048668,-57.588231)"
+       id="text5665"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect5667);fill:#ffffff;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="86.177734"
+         y="789.68421"
+         id="tspan3280">TALPASI IRKA ISKOLA</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,17.831889,-0.58465209)"
+       id="text3256"
+       style="font-size:26.6667px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect3258);fill:#ffffff;stroke:#000000;stroke-width:0"><tspan
+         x="274.00391"
+         y="616.22132"
+         id="tspan3282">Talpas</tspan></text>
+  </g>
+</svg>
