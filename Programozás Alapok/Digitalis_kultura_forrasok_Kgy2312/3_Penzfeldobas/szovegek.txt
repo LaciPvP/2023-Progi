@@ -1,0 +1,13 @@
+﻿Fej
+Írás
+Azonos
+Hossz
+Dobás
+Fej
+Írás
+Leghosszabb azonos
+hossza
+vége
+eleje
+dobás
+Pénzfeldobás eredményének vizsgálata
