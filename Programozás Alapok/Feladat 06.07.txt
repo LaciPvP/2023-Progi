@@ -1,0 +1,2 @@
+1. Feladat
+Készítsünk egy modult,a modul tartalmazzon egy osztályt téglalap néven ami 2 adatot fog tartalmazni hosszusag-szelesseg,és két függvényt (terület,kerület) ha gyprsan végzek szűmítok átlót is
